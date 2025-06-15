@@ -32,4 +32,8 @@ code {
 .b {display: flex;
             justify-content: center;
             align-items: center;
+            color:#198754
           }
+
+.nav { background: #198754; padding: 5px; text-align: center; }
+    nav a { color: white; text-decoration: none; margin: 0 80px; font-weight: bold; }

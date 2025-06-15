@@ -21,8 +21,8 @@ function Login() {
     };
 
      return (
-        <div> 
-            <form onSubmit={handleSubmit}>  
+        <div className = "body"> 
+            <form onSubmit={handleSubmit} className = "a">  
                 <h2 className = 'text-success'>Please Login</h2> <br></br> 
                 <b> Enter Email </b>
                 <input 

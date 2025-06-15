@@ -23,8 +23,8 @@ function Payment() {
     };
 
      return (
-        <div> 
-            <form onSubmit={handleSubmit}>  
+        <div className = "body"> 
+            <form onSubmit={handleSubmit} className = "a">  
                 <h2 className = 'text-success'>Proceed To Payment</h2> <br></br> 
                <b> Enter Order ID </b> 
                 <input 

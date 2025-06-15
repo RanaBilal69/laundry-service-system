@@ -11,8 +11,8 @@ function TrackOrder() {
     };
 
      return (
-        <div> 
-            <form onSubmit={handleSubmit}>  
+        <div className = "body"> 
+            <form onSubmit={handleSubmit} className = "a">  
                 <h2 className = 'text-success'>Track Your Order </h2> <br></br> 
                <b> Enter Your Phone No. </b> 
                 <input 

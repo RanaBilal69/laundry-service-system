@@ -12,8 +12,8 @@ function Feedback() {
     };
 
      return (
-        <div> 
-            <form onSubmit={handleSubmit}>  
+        <div className = "body"> 
+            <form onSubmit={handleSubmit} className = "a">  
                 <h2 className = 'text-success'>Please Give Feedback </h2> <br></br> 
                <b> Enter Name </b> 
                 <input 

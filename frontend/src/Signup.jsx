@@ -13,8 +13,8 @@ function Signup() {
     };
 
      return (
-        <div> 
-            <form onSubmit={handleSubmit}>  
+        <div className = "body"> 
+            <form onSubmit={handleSubmit} className = "a">  
                 <h2 className = 'text-success'>Register Yourself </h2> <br></br> 
                <b> Enter Name </b> 
                 <input 
