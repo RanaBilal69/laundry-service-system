@@ -6,7 +6,7 @@ function Welcome ()
             <div>
                 <h1>Laundry Service System</h1>
             <Link to="/signup" className="btn btn-success">SignUp Page</Link> <br></br> <br></br> 
-            <Link to="/login" className="btn btn-success">Login</Link> <br></br> <br></br> 
+            <Link to="/login" className="btn btn-success">Login Page</Link> <br></br> <br></br> 
             <Link to="/servicereq" className="btn btn-success">Place Order</Link> <br></br> <br></br> 
             <Link to="/trackorder" className="btn btn-success">Track Order</Link> <br></br> <br></br> 
             <Link to="/payment" className="btn btn-success">Payment</Link> <br></br> <br></br> 
